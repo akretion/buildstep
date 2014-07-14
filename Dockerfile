@@ -1,5 +1,5 @@
-FROM ubuntu:quantal
-MAINTAINER progrium "progrium@gmail.com"
+FROM rvalyi/odoocker-base
+MAINTAINER Raphaël Valyi "rvalyi@akretion.com"
 
 RUN mkdir /build
 ADD ./stack/ /build
